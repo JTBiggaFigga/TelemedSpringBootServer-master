@@ -1,0 +1,13 @@
+package com.mwellness.mcare.responses;
+
+public enum ResponseCode {
+    ECG_UPLOAD_OK,
+    ECG_UPLOAD_FAILED,
+
+    CHUNK_UPLOAD_OK,
+    CHUNK_UPLOAD_FAILED,
+    CHUNK_UPLOAD_OK_BUT_SCHEDULING_FAILED,
+    INVALID_SESSION_ID,
+    SESSION_NOT_STARTED,
+    SESSION_TERMINATED
+}
